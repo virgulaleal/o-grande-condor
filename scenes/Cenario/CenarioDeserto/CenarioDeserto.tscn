@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/Cenario/Montanhas/Montanhas.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/cenario/lua.png" type="Texture" id=2]
+
+[node name="CenarioDeserto" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.109804, 0.109804, 0.109804, 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 205.0
+color = Color( 0.956863, 0.956863, 0.956863, 1 )
+
+[node name="Montanhas" parent="." instance=ExtResource( 1 )]
+position = Vector2( 230, 189 )
+
+[node name="Lua" type="Sprite" parent="."]
+position = Vector2( 109, 46 )
+texture = ExtResource( 2 )

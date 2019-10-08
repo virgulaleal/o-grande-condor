@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/fight-against-a-GRANDE-AMIGO.ogg-33d459dede789ca33b22073232cad0c3.oggstr"
+
+[deps]
+
+source_file="res://assets/marco/fight-against-a-GRANDE-AMIGO.ogg"
+dest_files=[ "res://.import/fight-against-a-GRANDE-AMIGO.ogg-33d459dede789ca33b22073232cad0c3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

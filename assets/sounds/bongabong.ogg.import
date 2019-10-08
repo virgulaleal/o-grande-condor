@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bongabong.ogg-efb4f7e7eae2716f45d78fc9e2136def.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/bongabong.ogg"
+dest_files=[ "res://.import/bongabong.ogg-efb4f7e7eae2716f45d78fc9e2136def.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

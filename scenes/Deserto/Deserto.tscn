@@ -1,0 +1,171 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://scenes/Deserto/Deserto.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Cenario/CenarioDeserto/CenarioDeserto.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Boneco/Boneco.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/ui/deserto/chegar-bebado.png" type="Texture" id=4]
+[ext_resource path="res://assets/ui/deserto/perguntar-direccoes.png" type="Texture" id=5]
+[ext_resource path="res://assets/ui/deserto/agredir.png" type="Texture" id=6]
+[ext_resource path="res://scenes/Fala/BanterBox/BanterBox.tscn" type="PackedScene" id=7]
+[ext_resource path="res://scenes/Menus/Frames/Frame.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/fonts/comic-book/comic-book-bold-16.tres" type="DynamicFont" id=9]
+[ext_resource path="res://assets/fonts/comic-book/comic-book-12.tres" type="DynamicFont" id=10]
+
+[sub_resource type="Animation" id=1]
+resource_name = "default"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 992, 366 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "enter_stage_right"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 0.5, 1 ),
+"update": 0,
+"values": [ Vector2( 992, 326 ), Vector2( 400, 286 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "exit_stage_right"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 2 ),
+"update": 0,
+"values": [ Vector2( 400, 286 ), Vector2( 928, 326 ) ]
+}
+
+[node name="Deserto" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="CenarioDeserto" parent="." instance=ExtResource( 2 )]
+
+[node name="EncounterStage" type="Node2D" parent="."]
+position = Vector2( 400, 286 )
+scale = Vector2( 1.01073, 1.01325 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="EncounterStage"]
+anims/default = SubResource( 1 )
+anims/enter_stage_right = SubResource( 2 )
+anims/exit_stage_right = SubResource( 3 )
+
+[node name="Boneco" parent="EncounterStage" instance=ExtResource( 3 )]
+
+[node name="Trupe" type="YSort" parent="."]
+position = Vector2( 182, 353 )
+
+[node name="Boneco2" parent="Trupe" instance=ExtResource( 3 )]
+position = Vector2( -88, -65.164 )
+
+[node name="Boneco4" parent="Trupe" instance=ExtResource( 3 )]
+position = Vector2( 0, -50.164 )
+
+[node name="Protagonistico" parent="Trupe" instance=ExtResource( 3 )]
+position = Vector2( 86, -27 )
+is_protagonistico = true
+
+[node name="Boneco3" parent="Trupe" instance=ExtResource( 3 )]
+position = Vector2( -133, -21.164 )
+
+[node name="Boneco5" parent="Trupe" instance=ExtResource( 3 )]
+position = Vector2( -32, -5.164 )
+
+[node name="Choices" type="Control" parent="."]
+editor/display_folded = true
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ChegarBebado" type="TextureRect" parent="Choices"]
+visible = false
+margin_left = 71.0
+margin_top = 16.0
+margin_right = 452.0
+margin_bottom = 81.0
+texture = ExtResource( 4 )
+
+[node name="PerguntarDireccoes" type="TextureRect" parent="Choices"]
+visible = false
+margin_left = 67.0
+margin_top = 69.5
+margin_right = 456.0
+margin_bottom = 132.5
+texture = ExtResource( 5 )
+
+[node name="Agredir" type="TextureRect" parent="Choices"]
+visible = false
+margin_left = 67.0
+margin_top = 128.0
+margin_right = 463.0
+margin_bottom = 192.0
+texture = ExtResource( 6 )
+
+[node name="Stage" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="BanterBox" parent="." instance=ExtResource( 7 )]
+
+[node name="Frame" parent="." instance=ExtResource( 8 )]
+visible = false
+margin_left = 304.0
+margin_top = 296.0
+margin_right = -8.0
+margin_bottom = -16.0
+
+[node name="AmigoStats" type="Control" parent="Frame"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -16.0
+margin_bottom = -8.0
+
+[node name="Label" type="Label" parent="Frame/AmigoStats"]
+anchor_right = 1.0
+margin_bottom = 23.0
+custom_fonts/font = ExtResource( 9 )
+custom_colors/font_color = Color( 0.109804, 0.109804, 0.109804, 1 )
+text = "espécie desconhecida"
+align = 2
+valign = 2
+clip_text = true
+
+[node name="Label2" type="Label" parent="Frame/AmigoStats"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 17.0
+rect_pivot_offset = Vector2( 120, -16 )
+rect_clip_content = true
+custom_fonts/font = ExtResource( 10 )
+custom_colors/font_color = Color( 0.109804, 0.109804, 0.109804, 1 )
+custom_constants/line_spacing = -3
+text = "Raridade: normal
+Signo: nenhum
+Sabor: normal
+Ovos: 5"
+align = 2
+clip_text = true

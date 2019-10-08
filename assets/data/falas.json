@@ -1,0 +1,235 @@
+{
+    "normal": {
+        "bonzinho": [
+            "eu sou do bem",
+            "eu só vim ter um bom tempo",
+            "vamos ser amigos",
+            "a noite é tão bela",
+            "gentileza gera gentileza"
+        ],
+        "sossegado": [
+            "eu sou do sossego",
+            "sem problemas",
+            "ok",
+            "e aí blz",
+            "jogo joia esse aqui"
+        ],
+        "malvado": [
+            "eu sou do mal",
+            "bora fazer uma maldade",
+            "fuck, man, you are a fuck",
+            "fuck-se",
+            "palavrão"
+        ],
+        "mandao": [
+            "me obedece",
+            "sem bagunça",
+            "todos juntos",
+            "ninguém solta a mão de ninguém",
+            "vamo, vamo, vamo"
+        ],
+        "de-boas": [
+            "tô de boa",
+            "calma aí meu chapa",
+            "qual é a nova",
+            "vamo que vamo né",
+            "hmm"
+        ],
+        "bagunceiro": [
+            "hora da bagunça",
+            "bora estorar um caixa",
+            "bora beber na moral",
+            "quem trouxe a erva",
+            "não fui eu"
+        ]
+    },
+    "triste": {
+        "bonzinho": [
+            "o que eu fiz pra merecer isso?",
+            "poxa vida",
+            "aaah que peninha",
+            "ai que tristeza",
+            "ai ai ai...",
+            "magoei"
+        ],
+        "sossegado": [
+            "que bad",
+            "vish",
+            "putz",
+            "aff",
+            "é..."
+        ],
+        "malvado": [
+            "que lástima estou triste",
+            "que infortúnio",
+            "melancolia me define",
+            "o mundo sofrerá comigo",
+            "ninguém sabe como eu me sinto"
+        ],
+        "mandao": [
+            "grrrr buaaa",
+            "eu não estou triste, você está triste",
+            "cê acha que eu ligo",
+            "não olha pra mim",
+            "sai, sai",
+            "só me deixa",
+            "me deixa",
+            "sai, sai fora"
+        ],
+        "de-boas": [
+            "ficar triste é normal",
+            "que chato",
+            "fazer o que né",
+            "vida que segue",
+            "situação difícil",
+            "minha vitalidade esvai"
+        ],
+        "bagunceiro": [
+            "tô triste vamo po bar",
+            "vou fazer uma besteira",
+            "vai dar bom não",
+            "pensamenos intrusivos, baby",
+            "bagunça nas ideia",
+            "tô bem não vai vendo",
+            "affffffffffffffffffffff",
+            "puts vou passar nervoso",
+            "ah mas vai dar ansiedade"
+        ]
+    },
+    "raiva": {
+        "bonzinho": [
+            "agora me aborreci",
+            "oras que aborrecimento",
+            "ara",
+            "oxe",
+            "vixe",
+            "eu não mereço isso eu sou bebê",
+            "tsc, tsc, aaaah, tsc"
+        ],
+        "sossegado": [
+            "que chato isso",
+            "orra, caramba",
+            "hmmm",
+            "quero papo não",
+            "poucas ideia",
+            "tshhh"
+        ],
+        "malvado": [
+            "fuck",
+            "fuck shit",
+            "shit fuck fuck",
+            "palavrãos diversos",
+            "grrrrrrrrrrrrrr",
+            "ruim",
+            "maldição",
+            "raios e trovões",
+            "todos se arrependerão",
+            "todos sofrerão"
+        ],
+        "mandao": [
+            "isso não vai ficar assim",
+            "que fúria",
+            "basta",
+            "saia do meu caminho",
+            "sofra",
+            "inaceitável",
+            "inadequado",
+            "impróprio",
+            "desprezível",
+            "lastimável",
+            "você vai ver só"
+        ],
+        "de-boas": [
+            "tá bom fica vendo",
+            "tá certo",
+            "tudo tem volta",
+            "dia da caça, dia do caçador",
+            "dia da casa, dia do casador",
+            "depois não vem me pedir desculpa",
+            "depois a gente conversa",
+            "preciso de um tempo"
+        ],
+        "bagunceiro": [
+            "ah mas tu vai ver",
+            "tô LOCASS",
+            "ORRA",
+            "ARRE",
+            "ARA",
+            "ARA SÔ",
+            "OXE",
+            "VISH",
+            "PISTOLEI",
+            "irrrr",
+            "arrrrrr",
+            "tô tremendo",
+            "tá dando tremedeira aqui"
+        ]
+    },
+    "contente": {
+        "bonzinho": [
+            "iupiii",
+            "viva",
+            "hahaha",
+            "eheh",
+            "ooopaaaa",
+            "epaaa",
+            "ha ha",
+            "certo"
+        ],
+        "sossegado": [
+            "aí sim",
+            "epa",
+            "beleza",
+            "ooooopa",
+            "haaa",
+            "heeee",
+            "tsc"
+        ],
+        "malvado": [
+            "kkkkkkkkkkk fuck year",
+            "hehehehehe",
+            "hua ha ha ha",
+            "aaaah moleque",
+            "iiirraaaaaaaa",
+            "hmmmmmmmmmmmmmmm"
+        ],
+        "mandao": [
+            "excelente",
+            "ho ho ho ho",
+            "felizmente...",
+            "eu mereço isso",
+            "bota lenha pra tu ver",
+            "falei tá falado"
+        ],
+        "de-boas": [
+            "opa",
+            "epa",
+            "oh",
+            "ah",
+            "eeh",
+            "ara",
+            "hmm",
+            "tsc"
+        ],
+        "bagunceiro": [
+            "hua hua hua hua",
+            "agora o bicho vai pegar",
+            "só na zoação",
+            "meu espírito livre se liberta",
+            "firmeza total",
+            "irado",
+            "HA HA HA HA HA",
+            "HE HE HE HE HE",
+            "HI HI HI HI HI",
+            "HO HO HO HO HO",
+            "HU HU HU HU HU",
+            "turubom",
+            "VISH",
+            "ARA",
+            "ORRA",
+            "BELEZINHAAA",
+            "sensacional",
+            "vo la estourar meu figado"
+        ]
+    }
+}

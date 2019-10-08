@@ -1,0 +1,25 @@
+{
+    "back": "res://assets/sounds/dreamcast/BACK.wav",
+    "confirm": "res://assets/sounds/dreamcast/CONFIRMATION.wav",
+    "disc_change": "res://assets/sounds/dreamcast/DISC_CHECK.wav",
+    "select": "res://assets/sounds/dreamcast/SELECT.wav",
+    "vmu_config": "res://assets/sounds/dreamcast/VMU_CONFIG.wav",
+    "vmu_error": "res://assets/sounds/dreamcast/VMU_ERROR.wav",
+    "bongagong": "res://assets/sounds/bongabong.ogg",
+    "doodaadee": "res://assets/sounds/doodaadee.ogg",
+    
+    "searching-for-amigos": "res://assets/marco/Searching-for-AMIGOS.ogg",
+    "battle-against-amigo": "res://assets/marco/fight-against-a-GRANDE-AMIGO.ogg",
+    
+    "uau": "res://assets/sounds/identidade-vox/uau.ogg",
+    "isso-e-voce": "res://assets/sounds/identidade-vox/isso-e-voce.ogg",
+    "incrivel-identidade": "res://assets/sounds/identidade-vox/incrivel-identidade.ogg",
+    "forma-revelada": "res://assets/sounds/identidade-vox/forma-revelada.ogg",
+    "fantastica-expressao": "res://assets/sounds/identidade-vox/fantastica-expressao.ogg",
+    "excelente": "res://assets/sounds/identidade-vox/excelente.ogg",
+    "eu-te-amo": "res://assets/sounds/identidade-vox/eu-te-amo.ogg",
+    "congratulacoes": "res://assets/sounds/identidade-vox/congratulacoes.ogg",
+    "bom-trabalho": "res://assets/sounds/identidade-vox/bom-trabalho.ogg",
+    "bem-pensado": "res://assets/sounds/identidade-vox/bem-pensado.ogg",
+    "belissima-escolha": "res://assets/sounds/identidade-vox/belissima-escolha.ogg"
+}

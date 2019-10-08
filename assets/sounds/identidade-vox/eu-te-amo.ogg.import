@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/eu-te-amo.ogg-9027ff364506378747b06c634213730d.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/identidade-vox/eu-te-amo.ogg"
+dest_files=[ "res://.import/eu-te-amo.ogg-9027ff364506378747b06c634213730d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

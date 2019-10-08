@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/fantastica-expressao.ogg-f08989b84803634143ceac0550865d11.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/identidade-vox/fantastica-expressao.ogg"
+dest_files=[ "res://.import/fantastica-expressao.ogg-f08989b84803634143ceac0550865d11.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

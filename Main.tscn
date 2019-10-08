@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="Main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 41.0
+margin_top = 16.0
+margin_right = 471.0
+margin_bottom = 49.0
+text = "só é possível adentrar até a metade do mais estéril dos desertos;
+então estará partindo."

@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scenes/Fala/BanterBox/BanterBox.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Menus/Frames/Frame.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Boneco/Boneco.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/Fala/Fala.tscn" type="PackedScene" id=4]
+
+[node name="BanterBox" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -296.0
+script = ExtResource( 1 )
+
+[node name="Frame" parent="." instance=ExtResource( 2 )]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = -408.0
+margin_bottom = -16.0
+
+[node name="Portrait" type="Control" parent="Frame"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 80.0
+margin_bottom = 80.0
+rect_clip_content = true
+
+[node name="Boneco" parent="Frame/Portrait" instance=ExtResource( 3 )]
+position = Vector2( 48, 120 )
+
+[node name="Fala" parent="." instance=ExtResource( 4 )]
+margin_left = 112.0
+margin_top = 24.0
+margin_right = -15.0
+margin_bottom = -24.0

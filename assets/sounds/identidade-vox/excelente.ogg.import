@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/excelente.ogg-f4678d20ab4c46ca6509a969f6e55b87.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/identidade-vox/excelente.ogg"
+dest_files=[ "res://.import/excelente.ogg-f4678d20ab4c46ca6509a969f6e55b87.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,183 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/Pachinko/PachinkoBase/PachinkoBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/Pachinko/PachinkoPeg/PachinkoPeg.tscn" type="PackedScene" id=2]
+
+[node name="Board" type="Node2D"]
+
+[node name="PachinkoBase" parent="." instance=ExtResource( 1 )]
+position = Vector2( 256, 208 )
+
+[node name="PachinkoPeg" parent="." instance=ExtResource( 2 )]
+position = Vector2( 216, 232 )
+
+[node name="PachinkoPeg59" parent="." instance=ExtResource( 2 )]
+position = Vector2( 216, 294 )
+
+[node name="PachinkoPeg23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 144, 120 )
+
+[node name="PachinkoPeg26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 92.5, 160 )
+
+[node name="PachinkoPeg33" parent="." instance=ExtResource( 2 )]
+position = Vector2( 64, 195.5 )
+
+[node name="PachinkoPeg57" parent="." instance=ExtResource( 2 )]
+position = Vector2( 448, 195.5 )
+
+[node name="PachinkoPeg42" parent="." instance=ExtResource( 2 )]
+position = Vector2( 288, 120 )
+
+[node name="PachinkoPeg49" parent="." instance=ExtResource( 2 )]
+position = Vector2( 338.4, 160 )
+
+[node name="PachinkoPeg11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 352, 272 )
+
+[node name="PachinkoPeg60" parent="." instance=ExtResource( 2 )]
+position = Vector2( 312, 336 )
+
+[node name="PachinkoPeg2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 192 )
+
+[node name="PachinkoPeg24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 152, 80 )
+
+[node name="PachinkoPeg35" parent="." instance=ExtResource( 2 )]
+position = Vector2( 296, 80 )
+
+[node name="PachinkoPeg16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 280, 148 )
+
+[node name="PachinkoPeg17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 243, 143 )
+
+[node name="PachinkoPeg20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 138 )
+
+[node name="PachinkoPeg19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 271, 143 )
+
+[node name="PachinkoPeg21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 262, 138 )
+
+[node name="PachinkoPeg22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 257, 129 )
+
+[node name="PachinkoPeg18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 234, 148 )
+
+[node name="PachinkoPeg9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 88, 232 )
+
+[node name="PachinkoPeg58" parent="." instance=ExtResource( 2 )]
+position = Vector2( 88, 294 )
+
+[node name="PachinkoPeg14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 360, 232 )
+
+[node name="PachinkoPeg30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 288, 120 )
+
+[node name="PachinkoPeg50" parent="." instance=ExtResource( 2 )]
+position = Vector2( 338.4, 160 )
+
+[node name="PachinkoPeg44" parent="." instance=ExtResource( 2 )]
+position = Vector2( 448, 120 )
+
+[node name="PachinkoPeg3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 256, 200 )
+
+[node name="PachinkoPeg51" parent="." instance=ExtResource( 2 )]
+position = Vector2( 256, 276.5 )
+
+[node name="PachinkoPeg31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 184, 88 )
+
+[node name="PachinkoPeg34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 328, 88 )
+
+[node name="PachinkoPeg7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 120, 240 )
+
+[node name="PachinkoPeg55" parent="." instance=ExtResource( 2 )]
+position = Vector2( 120, 302 )
+
+[node name="PachinkoPeg43" parent="." instance=ExtResource( 2 )]
+position = Vector2( 192, 128 )
+
+[node name="PachinkoPeg45" parent="." instance=ExtResource( 2 )]
+position = Vector2( 140.5, 168 )
+
+[node name="PachinkoPeg47" parent="." instance=ExtResource( 2 )]
+position = Vector2( 112, 203.5 )
+
+[node name="PachinkoPeg13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 392, 240 )
+
+[node name="PachinkoPeg53" parent="." instance=ExtResource( 2 )]
+position = Vector2( 392, 302 )
+
+[node name="PachinkoPeg25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 320, 128 )
+
+[node name="PachinkoPeg37" parent="." instance=ExtResource( 2 )]
+position = Vector2( 370.4, 168 )
+
+[node name="PachinkoPeg4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 288, 192 )
+
+[node name="PachinkoPeg29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 216, 80 )
+
+[node name="PachinkoPeg40" parent="." instance=ExtResource( 2 )]
+position = Vector2( 360, 80 )
+
+[node name="PachinkoPeg6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 152, 232 )
+
+[node name="PachinkoPeg27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 64, 120 )
+
+[node name="PachinkoPeg38" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 120 )
+
+[node name="PachinkoPeg41" parent="." instance=ExtResource( 2 )]
+position = Vector2( 172.5, 160 )
+
+[node name="PachinkoPeg46" parent="." instance=ExtResource( 2 )]
+position = Vector2( 144, 195.5 )
+
+[node name="PachinkoPeg12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 424, 232 )
+
+[node name="PachinkoPeg54" parent="." instance=ExtResource( 2 )]
+position = Vector2( 424, 294 )
+
+[node name="PachinkoPeg5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 296, 232 )
+
+[node name="PachinkoPeg52" parent="." instance=ExtResource( 2 )]
+position = Vector2( 296, 294 )
+
+[node name="PachinkoPeg28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224, 120 )
+
+[node name="PachinkoPeg32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 172.5, 160 )
+
+[node name="PachinkoPeg36" parent="." instance=ExtResource( 2 )]
+position = Vector2( 144, 195.5 )
+
+[node name="PachinkoPeg39" parent="." instance=ExtResource( 2 )]
+position = Vector2( 368, 120 )
+
+[node name="PachinkoPeg48" parent="." instance=ExtResource( 2 )]
+position = Vector2( 418.4, 160 )
+
+[node name="PachinkoPeg10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 160, 272 )
+
+[node name="PachinkoPeg56" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204.5, 336 )

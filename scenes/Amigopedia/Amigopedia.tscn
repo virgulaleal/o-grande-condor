@@ -1,0 +1,141 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scenes/Amigopedia/Amigopedia.gd" type="Script" id=1]
+[ext_resource path="res://assets/ui/amigopedia/amigopedia-bg.png" type="Texture" id=2]
+[ext_resource path="res://assets/ui/amigopedia/ficha.png" type="Texture" id=3]
+[ext_resource path="res://scenes/Boneco/Boneco.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/fonts/comic-book/comic-book-bold-24.tres" type="DynamicFont" id=5]
+[ext_resource path="res://assets/fonts/comic-book/comic-book-bold-18.tres" type="DynamicFont" id=6]
+[ext_resource path="res://assets/fonts/comic-book/comic-book-bold-16.tres" type="DynamicFont" id=7]
+[ext_resource path="res://assets/fonts/comic-book/comic-book-12.tres" type="DynamicFont" id=8]
+
+[node name="Amigopedia" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Background" type="TextureRect" parent="."]
+margin_right = 512.0
+margin_bottom = 416.0
+texture = ExtResource( 2 )
+
+[node name="Content" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 63.0
+
+[node name="VBoxBtns" type="VBoxContainer" parent="Content"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 132.0
+margin_top = 86.0
+margin_right = -132.0
+margin_bottom = -86.0
+
+[node name="Label" type="Label" parent="Content/VBoxBtns"]
+margin_right = 248.0
+margin_bottom = 31.0
+text = "botões feios temporários, clique com o seu \"mouse\""
+align = 1
+valign = 2
+autowrap = true
+
+[node name="BtnTopeiro" type="Button" parent="Content/VBoxBtns"]
+margin_top = 35.0
+margin_right = 248.0
+margin_bottom = 55.0
+text = "topeiro"
+
+[node name="BtnDesempreguitos" type="Button" parent="Content/VBoxBtns"]
+margin_top = 59.0
+margin_right = 248.0
+margin_bottom = 79.0
+text = "desempreguitos"
+
+[node name="BtnFocafoca" type="Button" parent="Content/VBoxBtns"]
+margin_top = 83.0
+margin_right = 248.0
+margin_bottom = 103.0
+text = "focafoca"
+
+[node name="BtnAmiga" type="Button" parent="Content/VBoxBtns"]
+margin_top = 107.0
+margin_right = 248.0
+margin_bottom = 127.0
+text = "amiga"
+
+[node name="BtnCrash" type="Button" parent="Content/VBoxBtns"]
+margin_top = 131.0
+margin_right = 248.0
+margin_bottom = 151.0
+text = "crash"
+
+[node name="BtnSharkboy" type="Button" parent="Content/VBoxBtns"]
+margin_top = 155.0
+margin_right = 248.0
+margin_bottom = 175.0
+text = "sharkboy"
+
+[node name="FichadeAmigo" type="TextureRect" parent="Content"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -237.5
+margin_top = -160.0
+margin_right = 237.5
+margin_bottom = 160.0
+texture = ExtResource( 3 )
+
+[node name="Boneco" parent="Content/FichadeAmigo" instance=ExtResource( 4 )]
+position = Vector2( 101.5, 240.5 )
+
+[node name="NameLabel" type="Label" parent="Content/FichadeAmigo"]
+margin_left = 184.0
+margin_top = 51.0
+margin_right = 452.0
+margin_bottom = 104.0
+custom_fonts/font = ExtResource( 5 )
+custom_constants/line_spacing = -11
+text = "topeiro"
+align = 1
+valign = 2
+autowrap = true
+clip_text = true
+uppercase = true
+
+[node name="SpeciesLabel" type="Label" parent="Content/FichadeAmigo"]
+margin_left = 202.0
+margin_top = 101.0
+margin_right = 432.0
+margin_bottom = 141.0
+custom_fonts/font = ExtResource( 6 )
+custom_constants/line_spacing = -8
+text = "animal subterrâneo assalariado"
+align = 1
+valign = 1
+autowrap = true
+clip_text = true
+
+[node name="RarityLabel" type="Label" parent="Content/FichadeAmigo"]
+margin_left = 12.0
+margin_top = 261.0
+margin_right = 192.0
+margin_bottom = 291.0
+custom_fonts/font = ExtResource( 7 )
+text = "raríssimo"
+align = 1
+valign = 1
+autowrap = true
+clip_text = true
+
+[node name="BioLabel" type="Label" parent="Content/FichadeAmigo"]
+margin_left = 192.0
+margin_top = 141.0
+margin_right = 442.0
+margin_bottom = 291.0
+custom_fonts/font = ExtResource( 8 )
+custom_constants/line_spacing = -5
+text = "precisou colocar em hiato a carreira musical para trabalhar no Itaú da cidade em que nasceu. já comeu terra e pode comer de novo."
+autowrap = true
+clip_text = true

@@ -1,0 +1,121 @@
+{
+    "erro": {
+        "id": "erro",
+        "nome": "erro",
+        "especie": "erro",
+        "bio": "eu sou erro",
+        "personalidade": "erro",
+        "alinhamentos": ["bonzinho"],
+        "poder": "dois",
+        "raridade": "erro",
+        "raridade_nivel": "0",
+        "sprites": {
+            "normal": [""],
+            "triste": [""],
+            "raiva": [""],
+            "contente": [""]
+        }
+    },
+    "topeiro": {
+        "id": "topeiro",
+        "nome": "topeiro",
+        "especie": "animal subterrâneo assalariado",
+        "bio": "precisou colocar em hiato a carreira musical para trabalhar no Itaú da cidade em que nasceu. já comeu terra e pode comer de novo.",
+        "personalidade": "galante",
+        "alinhamentos": ["sossegado", "mandao"],
+        "poder": "dois",
+        "raridade": "normal",
+        "raridade_nivel": "4",
+        "sprites": {
+            "normal": ["res://assets/bonecos/mostros/topeiro/topeiro4.png"],
+            "triste": ["res://assets/bonecos/mostros/topeiro/topeiro5.png"],
+            "raiva": ["res://assets/bonecos/mostros/topeiro/topeiro2.png"],
+            "contente": ["res://assets/bonecos/mostros/topeiro/topeiro3.png", "res://assets/bonecos/mostros/topeiro/topeiro1.png"]
+        }
+    },
+    "desempreguitos": {
+        "id": "desempreguitos",
+        "nome": "desempreguitos",
+        "especie": "jovem adulto desempregado",
+        "bio": "possui disposição, iniciativa, vontade de trabalhar e uma eterna batalha interna contra a depressão",
+        "personalidade": "impressionada",
+        "alinhamentos": ["bonzinho", "de-boas"],
+        "poder": "um",
+        "raridade": "normal",
+        "raridade_nivel": "4",
+        "sprites": {
+            "normal": ["res://assets/bonecos/mostros/desempreguitos/desempreguitos1.png"],
+            "triste": ["res://assets/bonecos/mostros/desempreguitos/desempreguitos2.png"],
+            "raiva": ["res://assets/bonecos/mostros/desempreguitos/desempreguitos3.png"],
+            "contente": ["res://assets/bonecos/mostros/desempreguitos/desempreguitos4.png"]
+        }
+    },
+    "focafoca": {
+        "id": "focafoca",
+        "nome": "focafoca",
+        "especie": "foca pequena",
+        "bio": "topa qualquer parada, fato esse que lhe rendeu inúmeras passagens pela polícia",
+        "personalidade": "adorável",
+        "alinhamentos": ["sossegado", "de-boas"],
+        "poder": "três",
+        "raridade": "normal",
+        "raridade_nivel": "4",
+        "sprites": {
+            "normal": ["res://assets/bonecos/mostros/foca/foca2.png"],
+            "triste": ["res://assets/bonecos/mostros/foca/foca3.png"],
+            "raiva": ["res://assets/bonecos/mostros/foca/foca4.png"],
+            "contente": ["res://assets/bonecos/mostros/foca/foca1.png"]
+        }
+    },
+    "amiga": {
+        "id": "amiga",
+        "nome": "amiga",
+        "especie": "aliada canhota forte",
+        "bio": "sua amiga da internet, joga neopets competitivamente e já matou um homem",
+        "personalidade": "amiga",
+        "alinhamentos": ["bonzinho", "bagunceiro"],
+        "poder": "quatro",
+        "raridade": "difícil",
+        "raridade_nivel": "2",
+        "sprites": {
+            "normal": ["res://assets/bonecos/mostros/amiga/amiga1.png"],
+            "triste": ["res://assets/bonecos/mostros/amiga/amiga2.png"],
+            "raiva": ["res://assets/bonecos/mostros/amiga/amiga3.png"],
+            "contente": ["res://assets/bonecos/mostros/amiga/amiga4.png"]
+        }
+    },
+    "crash": {
+        "id": "crash",
+        "nome": "crash",
+        "especie": "rato porco australiano",
+        "bio": "crash está em busca implacável por sua namorada, Tawna. não conte pra ele que ela morreu já fazem mais de 10 anos!",
+        "personalidade": "especial",
+        "alinhamentos": ["sossegado", "bagunceiro"],
+        "poder": "seis",
+        "raridade": "raríssimo",
+        "raridade_nivel": "1",
+        "sprites": {
+            "normal": ["res://assets/bonecos/mostros/crash/crash.png"],
+            "triste": ["res://assets/bonecos/mostros/crash/crash.png"],
+            "raiva": ["res://assets/bonecos/mostros/crash/crash.png"],
+            "contente": ["res://assets/bonecos/mostros/crash/crash.png"]
+        }
+    },
+    "sharkboy": {
+        "id": "sharkboy",
+        "nome": "sharkboy",
+        "especie": "menino tubarão",
+        "bio": "sua vida foi entregue à maçonaria quando bebê e seu corpo dobrou-se demonicamente até assumir essa aparência atual. é bonzinho, filho de pais separados, só quer ter um bom tempo e se encontrar no mar",
+        "personalidade": "especial",
+        "alinhamentos": ["bonzinho"],
+        "poder": "seis",
+        "raridade": "raríssimo",
+        "raridade_nivel": "1",
+        "sprites": {
+            "normal": ["res://assets/bonecos/mostros/sharkboy/sharkboy.png"],
+            "triste": ["res://assets/bonecos/mostros/sharkboy/sharkboy.png"],
+            "raiva": ["res://assets/bonecos/mostros/sharkboy/sharkboy.png"],
+            "contente": ["res://assets/bonecos/mostros/sharkboy/sharkboy.png"]
+        }
+    }
+}

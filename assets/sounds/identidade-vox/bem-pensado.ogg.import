@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bem-pensado.ogg-9e4383936cb690f29f50e396d215da74.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/identidade-vox/bem-pensado.ogg"
+dest_files=[ "res://.import/bem-pensado.ogg-9e4383936cb690f29f50e396d215da74.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

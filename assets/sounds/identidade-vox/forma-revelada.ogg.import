@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/forma-revelada.ogg-f3988bbfc9e81c606b939f2006948c0d.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/identidade-vox/forma-revelada.ogg"
+dest_files=[ "res://.import/forma-revelada.ogg-f3988bbfc9e81c606b939f2006948c0d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
